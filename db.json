@@ -1,0 +1,254 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Google",
+            "type": "Software",
+            "established": 1998,
+            "headquarters": "Mountain View, California, USA",
+            "employees": 156500,
+            "revenue": 257.6,
+            "website": "https://www.google.com"
+        },
+        {
+            "id": 2,
+            "name": "Microsoft",
+            "type": "Software",
+            "established": 1975,
+            "headquarters": "Redmond, Washington, USA",
+            "employees": 221000,
+            "revenue": 198.3,
+            "website": "https://www.microsoft.com"
+        },
+        {
+            "id": 3,
+            "name": "Apple",
+            "type": "Hardware and Software",
+            "established": 1976,
+            "headquarters": "Cupertino, California, USA",
+            "employees": 154000,
+            "revenue": 394.3,
+            "website": "https://www.apple.com"
+        },
+        {
+            "id": 4,
+            "name": "Amazon",
+            "type": "E-commerce and Cloud Computing",
+            "established": 1994,
+            "headquarters": "Seattle, Washington, USA",
+            "employees": 1335000,
+            "revenue": 513.98,
+            "website": "https://www.amazon.com"
+        },
+        {
+            "id": 5,
+            "name": "Facebook (Meta)",
+            "type": "Social Media and Technology",
+            "established": 2004,
+            "headquarters": "Menlo Park, California, USA",
+            "employees": 58604,
+            "revenue": 117.9,
+            "website": "https://www.facebook.com"
+        },
+        {
+            "id": 6,
+            "name": "Tesla",
+            "type": "Automotive and Energy",
+            "established": 2003,
+            "headquarters": "Palo Alto, California, USA",
+            "employees": 70757,
+            "revenue": 81.46,
+            "website": "https://www.tesla.com"
+        },
+        {
+            "id": 7,
+            "name": "Netflix",
+            "type": "Entertainment",
+            "established": 1997,
+            "headquarters": "Los Gatos, California, USA",
+            "employees": 12100,
+            "revenue": 44.5,
+            "website": "https://www.netflix.com"
+        },
+        {
+            "id": 8,
+            "name": "IBM",
+            "type": "Technology and Consulting",
+            "established": 1911,
+            "headquarters": "Armonk, New York, USA",
+            "employees": 282100,
+            "revenue": 60.53,
+            "website": "https://www.ibm.com"
+        },
+        {
+            "id": 9,
+            "name": "Intel",
+            "type": "Semiconductors",
+            "established": 1968,
+            "headquarters": "Santa Clara, California, USA",
+            "employees": 121100,
+            "revenue": 63.05,
+            "website": "https://www.intel.com"
+        },
+        {
+            "id": 10,
+            "name": "Adobe",
+            "type": "Software",
+            "established": 1982,
+            "headquarters": "San Jose, California, USA",
+            "employees": 22600,
+            "revenue": 17.61,
+            "website": "https://www.adobe.com"
+        },
+        {
+            "id": 11,
+            "name": "Salesforce",
+            "type": "Cloud Computing and CRM",
+            "established": 1999,
+            "headquarters": "San Francisco, California, USA",
+            "employees": 73000,
+            "revenue": 31.35,
+            "website": "https://www.salesforce.com"
+        },
+        {
+            "id": 12,
+            "name": "Oracle",
+            "type": "Software and Cloud Computing",
+            "established": 1977,
+            "headquarters": "Redwood City, California, USA",
+            "employees": 143000,
+            "revenue": 42.44,
+            "website": "https://www.oracle.com"
+        },
+        {
+            "id": 13,
+            "name": "Uber",
+            "type": "Transportation and Technology",
+            "established": 2009,
+            "headquarters": "San Francisco, California, USA",
+            "employees": 32000,
+            "revenue": 31.88,
+            "website": "https://www.uber.com"
+        },
+        {
+            "id": 14,
+            "name": "Airbnb",
+            "type": "Hospitality and Technology",
+            "established": 2008,
+            "headquarters": "San Francisco, California, USA",
+            "employees": 7500,
+            "revenue": 8.4,
+            "website": "https://www.airbnb.com"
+        },
+        {
+            "id": 15,
+            "name": "Spotify",
+            "type": "Music Streaming",
+            "established": 2006,
+            "headquarters": "Stockholm, Sweden",
+            "employees": 9500,
+            "revenue": 13.4,
+            "website": "https://www.spotify.com"
+        },
+        {
+            "id": 16,
+            "name": "Snapchat (Snap Inc.)",
+            "type": "Social Media and Technology",
+            "established": 2011,
+            "headquarters": "Santa Monica, California, USA",
+            "employees": 6000,
+            "revenue": 4.1,
+            "website": "https://www.snapchat.com"
+        },
+        {
+            "id": 17,
+            "name": "Twitter",
+            "type": "Social Media",
+            "established": 2006,
+            "headquarters": "San Francisco, California, USA",
+            "employees": 7500,
+            "revenue": 5.08,
+            "website": "https://www.twitter.com"
+        },
+        {
+            "id": 18,
+            "name": "LinkedIn (Microsoft)",
+            "type": "Professional Networking",
+            "established": 2002,
+            "headquarters": "Sunnyvale, California, USA",
+            "employees": 20000,
+            "revenue": 10.3,
+            "website": "https://www.linkedin.com"
+        },
+        {
+            "id": 19,
+            "name": "Shopify",
+            "type": "E-commerce",
+            "established": 2006,
+            "headquarters": "Ottawa, Ontario, Canada",
+            "employees": 10000,
+            "revenue": 4.61,
+            "website": "https://www.shopify.com"
+        },
+        {
+            "id": 20,
+            "name": "Zoom Video Communications",
+            "type": "Video Conferencing",
+            "established": 2011,
+            "headquarters": "San Jose, California, USA",
+            "employees": 7000,
+            "revenue": 4.1,
+            "website": "https://www.zoom.us"
+        },
+        {
+            "id": 21,
+            "name": "Reddit",
+            "type": "Social Media and Community",
+            "established": 2005,
+            "headquarters": "San Francisco, California, USA",
+            "employees": 1700,
+            "revenue": 0.4,
+            "website": "https://www.reddit.com"
+        },
+        {
+            "id": 22,
+            "name": "Pinterest",
+            "type": "Social Media and Visual Discovery",
+            "established": 2010,
+            "headquarters": "San Francisco, California, USA",
+            "employees": 2200,
+            "revenue": 2.58,
+            "website": "https://www.pinterest.com"
+        },
+        {
+            "id": 23,
+            "name": "TikTok (ByteDance)",
+            "type": "Social Media and Entertainment",
+            "established": 2016,
+            "headquarters": "Beijing, China",
+            "employees": 11000,
+            "revenue": 17.3,
+            "website": "https://www.tiktok.com"
+        },
+        {
+            "id": 24,
+            "name": "GitHub (Microsoft)",
+            "type": "Software Development Platform",
+            "established": 2008,
+            "headquarters": "San Francisco, California, USA",
+            "employees": 3000,
+            "revenue": 1.2,
+            "website": "https://www.github.com"
+        },
+        {
+            "id": 25,
+            "name": "Stripe",
+            "type": "Financial Technology",
+            "established": 2010,
+            "headquarters": "San Francisco, California, USA",
+            "employees": 8000,
+            "revenue": 12.4,
+            "website": "https://www.stripe.com"
+        }
+    ]
+}
