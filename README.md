@@ -1,77 +1,91 @@
-# React + TypeScript + Vite
+# Companies Data Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Setup
 
-## Styling
+1. **Clone the repository:**
 
-- The default global font is [Ubuntu](https://fonts.google.com/specimen/Ubuntu), loaded via Google Fonts in `src/index.css`.
+   ```bash
+   git clone https://github.com/Adityasinghvats/companies-data.git
+   cd companies-data
+   ```
 
-Currently, two official plugins are available:
+2. **Install dependencies:**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   ```bash
+   npm install
+   ```
 
-## React Compiler
+3. **Start the development server:**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+   ```bash
+   npm run dev
+   ```
 
-## Expanding the ESLint configuration
+4. **Start the API server:**
+   ```bash
+   npm run server
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
+## 🌐 API Endpoint
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **Endpoint:** `http://localhost:3000/data`
+- **Response Body Schema:**
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
-```
+  ```json
+  [
+    {
+      "id": "string",
+      "name": "string",
+      "type": "string",
+      "established": 2020,
+      "headquarters": "string",
+      "employees": 100,
+      "revenue": 50,
+      "website": "https://example.com"
+    }
+    // ...more companies
+  ]
+  ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+## 🛠️ Main Components
 
-export default defineConfig([
-  globalIgnores(["dist"]),
-  {
-    files: ["**/*.{ts,tsx}"],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs["recommended-typescript"],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
-```
+- **Filter Component:**  
+  Lets users filter companies by search term, type, established year, employees, and revenue. Filters are only applied when the "Apply" button is pressed.
+
+- **Table Component:**  
+  Uses [Material UI Table](https://mui.com/material-ui/react-table/) for displaying company data in a responsive, interactive table.
+
+---
+
+## 🧩 Technologies Used
+
+- **Zod Validation:**  
+  All API data is validated using [Zod](https://zod.dev/) schemas for type safety and runtime validation.
+
+- **Custom Data Fetching Hook:**  
+  Located in the `services` folder, this hook manages API requests and provides `loading`, `error`, `refetch`, and `data` states for robust data handling.
+
+---
+
+## 📦 Folder Structure Highlights
+
+- `src/components/filters.tsx` – Filter UI and logic
+- `src/components/Table.tsx` – Material UI Table for displaying data
+- `src/schemas/company.schema.ts` – Zod schema for company data validation
+- `src/services/useFetch.ts` – Custom hook for fetching and managing API data
+
+---
+
+## 📝 Notes
+
+- Make sure both the dev server and API server are running for full functionality.
+- The app will show loading and error states as appropriate.
+- Filters are not applied automatically; use the "Apply" button to update the results.
+
+---
+
+**Enjoy exploring the Companies Data Dashboard!**

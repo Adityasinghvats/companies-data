@@ -249,6 +249,107 @@
             "employees": 8000,
             "revenue": 12.4,
             "website": "https://www.stripe.com"
-        }
+        },
+        
+  {
+    "id": "26",
+    "name": "TechNova",
+    "type": "software",
+    "established": 2005,
+    "headquarters": "San Francisco, USA",
+    "employees": 1200,
+    "revenue": 350,
+    "website": "https://www.technova.com"
+  },
+  {
+    "id": "27",
+    "name": "FinEdge",
+    "type": "finance",
+    "established": 1998,
+    "headquarters": "London, UK",
+    "employees": 800,
+    "revenue": 210,
+    "website": "https://www.finedge.co.uk"
+  },
+  {
+    "id": "28",
+    "name": "HealthBridge",
+    "type": "healthcare",
+    "established": 2010,
+    "headquarters": "Berlin, Germany",
+    "employees": 450,
+    "revenue": 120,
+    "website": "https://www.healthbridge.de"
+  },
+  {
+    "id": "29",
+    "name": "EduSpark",
+    "type": "education",
+    "established": 2015,
+    "headquarters": "Toronto, Canada",
+    "employees": 300,
+    "revenue": 60,
+    "website": "https://www.eduspark.ca"
+  },
+  {
+    "id": "30",
+    "name": "RetailGiant",
+    "type": "retail",
+    "established": 1985,
+    "headquarters": "New York, USA",
+    "employees": 5000,
+    "revenue": 900,
+    "website": "https://www.retailgiant.com"
+  },
+  {
+    "id": "31",
+    "name": "ManuCore",
+    "type": "manufacturing",
+    "established": 1992,
+    "headquarters": "Osaka, Japan",
+    "employees": 2200,
+    "revenue": 400,
+    "website": "https://www.manucore.jp"
+  },
+  {
+    "id": "32",
+    "name": "SocialSphere",
+    "type": "social",
+    "established": 2018,
+    "headquarters": "Stockholm, Sweden",
+    "employees": 150,
+    "revenue": 30,
+    "website": "https://www.socialsphere.se"
+  },
+  {
+    "id": "33",
+    "name": "EcoFinance",
+    "type": "finance",
+    "established": 2003,
+    "headquarters": "Zurich, Switzerland",
+    "employees": 600,
+    "revenue": 180,
+    "website": "https://www.ecofinance.ch"
+  },
+  {
+    "id": "34",
+    "name": "MediQuick",
+    "type": "healthcare",
+    "established": 2008,
+    "headquarters": "Mumbai, India",
+    "employees": 900,
+    "revenue": 75,
+    "website": "https://www.mediquick.in"
+  },
+  {
+    "id": "35",
+    "name": "Learnify",
+    "type": "education",
+    "established": 2020,
+    "headquarters": "Sydney, Australia",
+    "employees": 120,
+    "revenue": 15,
+    "website": "https://www.learnify.au"
+  }
     ]
 }

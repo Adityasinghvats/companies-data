@@ -26,7 +26,6 @@ export interface FilterState {
     employeesRange: number[];
     revenueRange: number[];
 }
-
 interface FilterProps {
     filters: FilterState;
     appliedFilters: FilterState;
@@ -206,40 +205,41 @@ export default function Filters({
             </div>
         </>
     )
-    return <div>
-        <div className="w-full gap-4 mb-6 rounded-lg p-4 hidden lg:block">
-            {filterContent}
-        </div>
-        <div className="lg:hidden fixed bottom-6 right-6 z-50">
-            <Sheet>
-                <SheetTrigger asChild>
-                    <Button
-                        size="lg"
-                        className="bg-gradient-cool text-white shadow-2xl hover:opacity-90 rounded-full h-14 w-14 p-0 animate-float"
-                    >
-                        <Filter className="h-6 w-6" />
-                        {activeFiltersCount > 0 && (
-                            <Badge className="absolute -top-2 -right-2 h-6 w-6 rounded-full p-0 flex items-center justify-center text-xs bg-red-500">
-                                {activeFiltersCount}
-                            </Badge>
-                        )}
-                    </Button>
-                </SheetTrigger>
-                <SheetContent side="bottom" className="max-h-[90vh] overflow-y-auto ">
-                    <SheetHeader>
-                        <SheetTitle className="text-xl font-bold text-gradient-cool">
-                            Filter Companies
-                        </SheetTitle>
-                    </SheetHeader>
-                    <div className="m-4">{filterContent}</div>
-                    <SheetFooter>
-                        <SheetClose asChild>
-                            <Button>Close</Button>
-                        </SheetClose>
-                    </SheetFooter>
-                </SheetContent>
-            </Sheet>
-        </div>
-
-    </div>
+    return (
+        <>
+            <div className="w-full gap-4 mb-6 rounded-lg p-4 hidden lg:block">
+                {filterContent}
+            </div>
+            <div className="lg:hidden fixed bottom-6 right-6 z-50">
+                <Sheet>
+                    <SheetTrigger asChild>
+                        <Button
+                            size="lg"
+                            className="bg-gradient-cool text-white shadow-2xl hover:opacity-90 rounded-full h-14 w-14 p-0 animate-float"
+                        >
+                            <Filter className="h-6 w-6" />
+                            {activeFiltersCount > 0 && (
+                                <Badge className="absolute -top-2 -right-2 h-6 w-6 rounded-full p-0 flex items-center justify-center text-xs bg-red-500">
+                                    {activeFiltersCount}
+                                </Badge>
+                            )}
+                        </Button>
+                    </SheetTrigger>
+                    <SheetContent side="bottom" className="max-h-[90vh] overflow-y-auto ">
+                        <SheetHeader>
+                            <SheetTitle className="text-xl font-bold text-gradient-cool">
+                                Filter Companies
+                            </SheetTitle>
+                        </SheetHeader>
+                        <div className="m-4">{filterContent}</div>
+                        <SheetFooter>
+                            <SheetClose asChild>
+                                <Button>Close</Button>
+                            </SheetClose>
+                        </SheetFooter>
+                    </SheetContent>
+                </Sheet>
+            </div>
+        </>
+    );
 }

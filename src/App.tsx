@@ -115,7 +115,6 @@ function App() {
 
   return (
     <div className='p-8'>
-
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         <section className="border-2 border-gray-900 rounded-xl shadow-xl p-6 lg:col-span-3 hidden lg:block">
           <h3 className="text-lg font-bold mb-4">Filter Companies</h3>
@@ -147,9 +146,10 @@ function App() {
               </SelectContent>
             </Select>
           </div>
-          <DataTable data={companies || []} />
+          <DataTable data={companies} />
         </section>
       </div>
+      {/* Floationg action button type filter for mobile screens */}
       <div className="lg:hidden fixed bottom-6 right-6 z-50">
         <Filters
           filters={draftFilters}
