@@ -1,9 +1,9 @@
 import Box from '@mui/material/Box';
 import { DataGrid } from '@mui/x-data-grid';
 import type { GridColDef } from '@mui/x-data-grid';
-import type { CompanyData } from '../types/data';
+import { type Company } from '../schemas/companySchema.ts';
 
-const columns: GridColDef<CompanyData>[] = [
+const columns: GridColDef<Company>[] = [
     { field: 'id', headerName: 'ID', width: 90 },
     {
         field: 'name',
@@ -50,7 +50,7 @@ const columns: GridColDef<CompanyData>[] = [
 ];
 
 interface DataTableProps {
-    data: CompanyData[];
+    data: Company[];
 }
 
 export default function DataTable({ data }: DataTableProps) {

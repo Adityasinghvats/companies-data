@@ -6,7 +6,7 @@ import { useState } from 'react';
 import type { FilterState } from './components/filters';
 import Filters from './components/filters';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import type { CompanyData } from './types/data';
+import { type Company } from './schemas/companySchema';
 
 function App() {
   const { data, error, loading, refetch } = useFetch(() => fetchData());
@@ -66,7 +66,7 @@ function App() {
   }
 
   // filtered data on basis of sortBy value
-  const sortCompanies = (companies: CompanyData[]) => {
+  const sortCompanies = (companies: Company[]) => {
     return [...companies].sort((a, b) => {
       switch (sortBy) {
         case "newest":
@@ -89,23 +89,27 @@ function App() {
   const companies = sortCompanies(getFilteredData() || []);
 
   if (loading) return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <svg className="animate-spin h-12 w-12 text-blue-600 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
-      </svg>
-      <span className="text-lg text-gray-700 font-semibold">Loading data...</span>
+    <div className='p-8'>
+      <div className="flex flex-col items-center justify-center min-h-screen">
+        <svg className="animate-spin h-12 w-12 text-blue-600 mb-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
+        </svg>
+        <span className="text-lg text-gray-700 font-semibold">Loading data...</span>
+      </div>
     </div>
   )
   if (error) return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <span className="text-lg text-red-600 font-semibold mb-4">Error loading data</span>
-      <button
-        onClick={() => refetch()}
-        className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
-      >
-        Retry
-      </button>
+    <div className='p-8'>
+      <div className="flex flex-col items-center justify-center min-h-screen">
+        <span className="text-lg text-red-600 font-semibold mb-4">Error loading data</span>
+        <button
+          onClick={() => refetch()}
+          className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+        >
+          Retry
+        </button>
+      </div>
     </div>
   )
 

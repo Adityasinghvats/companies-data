@@ -1,4 +1,4 @@
-import type { CompanyData } from "../types/data";
+import { CompanyArraySchema, type Company } from "@/schemas/companySchema";
 export const API_CONFIG = {
     BASE_URL: "http://localhost:3000",
     headers: {
@@ -8,7 +8,7 @@ export const API_CONFIG = {
 
 
 export const fetchData = async (
-): Promise<CompanyData[]> => {
+): Promise<Company[]> => {
     try {
         const endpoint = `${API_CONFIG.BASE_URL}/data`
 
@@ -22,7 +22,8 @@ export const fetchData = async (
         }
 
         const data = await response.json();
-        return data as CompanyData[];
+        const validated = CompanyArraySchema.parse(data);
+        return validated;
     } catch (error) {
         console.error("Error fetching data summary:", error);
         throw error;
