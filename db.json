@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "id": 1,
+            "id": "1",
             "name": "Google",
             "type": "Software",
             "established": 1998,
@@ -11,7 +11,7 @@
             "website": "https://www.google.com"
         },
         {
-            "id": 2,
+            "id": "2",
             "name": "Microsoft",
             "type": "Software",
             "established": 1975,
@@ -21,7 +21,7 @@
             "website": "https://www.microsoft.com"
         },
         {
-            "id": 3,
+            "id": "3",
             "name": "Apple",
             "type": "Hardware and Software",
             "established": 1976,
@@ -31,19 +31,19 @@
             "website": "https://www.apple.com"
         },
         {
-            "id": 4,
+            "id": "4",
             "name": "Amazon",
-            "type": "E-commerce and Cloud Computing",
+            "type": "E-commerce",
             "established": 1994,
             "headquarters": "Seattle, Washington, USA",
-            "employees": 1335000,
+            "employees": 133500,
             "revenue": 513.98,
             "website": "https://www.amazon.com"
         },
         {
-            "id": 5,
+            "id": "5",
             "name": "Facebook (Meta)",
-            "type": "Social Media and Technology",
+            "type": "Social",
             "established": 2004,
             "headquarters": "Menlo Park, California, USA",
             "employees": 58604,
@@ -51,7 +51,7 @@
             "website": "https://www.facebook.com"
         },
         {
-            "id": 6,
+            "id": "6",
             "name": "Tesla",
             "type": "Automotive and Energy",
             "established": 2003,
@@ -61,7 +61,7 @@
             "website": "https://www.tesla.com"
         },
         {
-            "id": 7,
+            "id": "7",
             "name": "Netflix",
             "type": "Entertainment",
             "established": 1997,
@@ -71,7 +71,7 @@
             "website": "https://www.netflix.com"
         },
         {
-            "id": 8,
+            "id": "8",
             "name": "IBM",
             "type": "Technology and Consulting",
             "established": 1911,
@@ -81,7 +81,7 @@
             "website": "https://www.ibm.com"
         },
         {
-            "id": 9,
+            "id": "9",
             "name": "Intel",
             "type": "Semiconductors",
             "established": 1968,
@@ -91,7 +91,7 @@
             "website": "https://www.intel.com"
         },
         {
-            "id": 10,
+            "id": "10",
             "name": "Adobe",
             "type": "Software",
             "established": 1982,
@@ -101,9 +101,9 @@
             "website": "https://www.adobe.com"
         },
         {
-            "id": 11,
+            "id": "11",
             "name": "Salesforce",
-            "type": "Cloud Computing and CRM",
+            "type": "Software",
             "established": 1999,
             "headquarters": "San Francisco, California, USA",
             "employees": 73000,
@@ -111,9 +111,9 @@
             "website": "https://www.salesforce.com"
         },
         {
-            "id": 12,
+            "id": "12",
             "name": "Oracle",
-            "type": "Software and Cloud Computing",
+            "type": "Software",
             "established": 1977,
             "headquarters": "Redwood City, California, USA",
             "employees": 143000,
@@ -121,9 +121,9 @@
             "website": "https://www.oracle.com"
         },
         {
-            "id": 13,
+            "id": "13",
             "name": "Uber",
-            "type": "Transportation and Technology",
+            "type": "Transportation",
             "established": 2009,
             "headquarters": "San Francisco, California, USA",
             "employees": 32000,
@@ -131,9 +131,9 @@
             "website": "https://www.uber.com"
         },
         {
-            "id": 14,
+            "id": "14",
             "name": "Airbnb",
-            "type": "Hospitality and Technology",
+            "type": "Hospitality",
             "established": 2008,
             "headquarters": "San Francisco, California, USA",
             "employees": 7500,
@@ -141,9 +141,9 @@
             "website": "https://www.airbnb.com"
         },
         {
-            "id": 15,
+            "id": "15",
             "name": "Spotify",
-            "type": "Music Streaming",
+            "type": "Entertainment",
             "established": 2006,
             "headquarters": "Stockholm, Sweden",
             "employees": 9500,
@@ -151,9 +151,9 @@
             "website": "https://www.spotify.com"
         },
         {
-            "id": 16,
+            "id": "16",
             "name": "Snapchat (Snap Inc.)",
-            "type": "Social Media and Technology",
+            "type": "Social Media",
             "established": 2011,
             "headquarters": "Santa Monica, California, USA",
             "employees": 6000,
@@ -161,9 +161,9 @@
             "website": "https://www.snapchat.com"
         },
         {
-            "id": 17,
+            "id": "17",
             "name": "Twitter",
-            "type": "Social Media",
+            "type": "Social",
             "established": 2006,
             "headquarters": "San Francisco, California, USA",
             "employees": 7500,
@@ -171,9 +171,9 @@
             "website": "https://www.twitter.com"
         },
         {
-            "id": 18,
+            "id": "18",
             "name": "LinkedIn (Microsoft)",
-            "type": "Professional Networking",
+            "type": "Social",
             "established": 2002,
             "headquarters": "Sunnyvale, California, USA",
             "employees": 20000,
@@ -181,7 +181,7 @@
             "website": "https://www.linkedin.com"
         },
         {
-            "id": 19,
+            "id": "19",
             "name": "Shopify",
             "type": "E-commerce",
             "established": 2006,
@@ -191,9 +191,9 @@
             "website": "https://www.shopify.com"
         },
         {
-            "id": 20,
+            "id": "20",
             "name": "Zoom Video Communications",
-            "type": "Video Conferencing",
+            "type": "Social",
             "established": 2011,
             "headquarters": "San Jose, California, USA",
             "employees": 7000,
@@ -201,9 +201,9 @@
             "website": "https://www.zoom.us"
         },
         {
-            "id": 21,
+            "id": "21",
             "name": "Reddit",
-            "type": "Social Media and Community",
+            "type": "Social",
             "established": 2005,
             "headquarters": "San Francisco, California, USA",
             "employees": 1700,
@@ -211,9 +211,9 @@
             "website": "https://www.reddit.com"
         },
         {
-            "id": 22,
+            "id": "22",
             "name": "Pinterest",
-            "type": "Social Media and Visual Discovery",
+            "type": "Social",
             "established": 2010,
             "headquarters": "San Francisco, California, USA",
             "employees": 2200,
@@ -221,9 +221,9 @@
             "website": "https://www.pinterest.com"
         },
         {
-            "id": 23,
+            "id": "23",
             "name": "TikTok (ByteDance)",
-            "type": "Social Media and Entertainment",
+            "type": "Social",
             "established": 2016,
             "headquarters": "Beijing, China",
             "employees": 11000,
@@ -231,9 +231,9 @@
             "website": "https://www.tiktok.com"
         },
         {
-            "id": 24,
+            "id": "24",
             "name": "GitHub (Microsoft)",
-            "type": "Software Development Platform",
+            "type": "Software",
             "established": 2008,
             "headquarters": "San Francisco, California, USA",
             "employees": 3000,
@@ -241,9 +241,9 @@
             "website": "https://www.github.com"
         },
         {
-            "id": 25,
+            "id": "25",
             "name": "Stripe",
-            "type": "Financial Technology",
+            "type": "Finance",
             "established": 2010,
             "headquarters": "San Francisco, California, USA",
             "employees": 8000,
