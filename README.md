@@ -87,5 +87,11 @@
 - Filters are not applied automatically; use the "Apply" button to update the results.
 
 ---
+## 🖥️ App Images
+- Sort By Feature
+<img width="1899" height="825" alt="Screenshot 2025-10-05 121358" src="https://github.com/user-attachments/assets/cd8b81c8-e662-4451-a747-23a52b40cca3" />
+- Filter By Type
+<img width="1898" height="824" alt="Screenshot 2025-10-05 121552" src="https://github.com/user-attachments/assets/c4681b7c-327e-4b4f-a4b8-02a703ca0265" />
+--- 
 
 **Enjoy exploring the Companies Data Dashboard!**
